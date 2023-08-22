@@ -1,7 +1,7 @@
 # DSA
 20IT205/20CS243
 C implementation:
-  1. Array
+  1. Array 
   2. Stack using array
   3. Queue using array
   4. Singly linked list
