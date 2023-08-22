@@ -3,7 +3,7 @@
 #include<stdlib.h>
 int stack[100],n,top =-1;
 void push(){
-    int ele;
+    int ele; 
     printf("enter the element to be inserted\n");
     scanf("%d",&ele);
     if(top>= n-1)
