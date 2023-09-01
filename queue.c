@@ -6,11 +6,10 @@ int queue[10],n;
 void enqueue()  
 {  
     int ele;  
-    printf("\nEnter the element\n");  
-    scanf("\n%d",&ele);      
     if(rear == n-1)  
     {  
-        printf("\nOVERFLOW\n");  
+        printf("\nOVERFLOW\n");
+        return;
          
     } 
   else{
@@ -20,10 +19,11 @@ void enqueue()
     }  
     else   
     {  
+        printf("\nEnter the element\n");  
+        scanf("\n%d",&ele);      
         rear = rear+1;  
- 
-    queue[rear] = ele;  
-    printf("\nValue inserted ");  }
+        queue[rear] = ele;  
+        printf("\nValue inserted ");  }
       
 }  }
 void dequeue()  
