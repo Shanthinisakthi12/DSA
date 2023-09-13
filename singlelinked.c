@@ -15,8 +15,10 @@ void init()
     head=NULL;    
 }
 
-void insertfirst(int element)   
+void insertfirst()   
 {
+    int element;
+    scanf("%d",&ele);
     struct node *New;
     New=(struct node*)malloc(sizeof(struct node));    
     New->value=element;       
