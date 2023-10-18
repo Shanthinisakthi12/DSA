@@ -8,11 +8,11 @@ C implementation:
   5. Doubly linked list
   6. Circular singly linked list
   7. Circular doubly linked list
-  8. Skip list
+  8. Skip list☑️
   9. stack using linked list☑️
   10. queue using linked list☑️
-  11. Circular queue
-  12. Dequeue
+  11. Circular queue☑️
+  12. Dequeue☑️
   13. binary tree☑️
   14. binary serach tree☑️
   15. AVL tree
