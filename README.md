@@ -5,9 +5,9 @@ C implementation:
   2. Stack using array ☑️
   3. Queue using array ☑️
   4. Singly linked list ☑️
-  5. Doubly linked list
-  6. Circular singly linked list
-  7. Circular doubly linked list
+  5. Doubly linked list☑️
+  6. Circular singly linked list☑️
+  7. Hashing
   8. Skip list☑️
   9. stack using linked list☑️
   10. queue using linked list☑️
@@ -23,7 +23,7 @@ C implementation:
   20. prim's
   21. kruskals
   22. insertion sort ☑️
-  23. heap sort
+  23. heap sort☑️
   24. merge sort ☑️
   25. quick sort ☑️
   26. radix sort ☑️
@@ -31,4 +31,3 @@ C implementation:
   28. external sort
   29. linear search ☑️
   30. binary search ☑️
-  31. hashing
