@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 struct node {
-  int item;
+  int data;
   struct node* left;
   struct node* right;
 };
@@ -13,14 +13,14 @@ struct node {
 void inorderTraversal(struct node* root) {
   if (root == NULL) return;
   inorderTraversal(root->left);
-  printf("%d ", root->item);
+  printf("%d ", root->data);
   inorderTraversal(root->right);
 }
 
 // Preorder traversal
 void preorderTraversal(struct node* root) {
   if (root == NULL) return;
-  printf("%d ", root->item);
+  printf("%d ", root->data);
   preorderTraversal(root->left);
   preorderTraversal(root->right);
 }
@@ -30,13 +30,14 @@ void postorderTraversal(struct node* root) {
   if (root == NULL) return;
   postorderTraversal(root->left);
   postorderTraversal(root->right);
-  printf("%d ", root->item);
+  printf("%d ", root->data);
 }
 
 // Create a new Node
 struct node* create(int value) {
-  struct node* newNode = malloc(sizeof(struct node));
-  newNode->item = value;
+  struct node* newNode;
+  newNode = (struct node*)malloc(sizeof(struct node));
+  newNode->data = value;
   newNode->left = NULL;
   newNode->right = NULL;
 
