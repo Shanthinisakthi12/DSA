@@ -7,7 +7,7 @@ C implementation:
   4. Singly linked list ☑️
   5. Doubly linked list☑️
   6. Circular singly linked list☑️
-  7. Hashing
+  7. Hashing☑️
   8. Skip list☑️
   9. stack using linked list☑️
   10. queue using linked list☑️
@@ -15,11 +15,11 @@ C implementation:
   12. Dequeue☑️
   13. binary tree☑️
   14. binary serach tree☑️
-  15. AVL tree
+  15. AVL tree☑️
   16. B tree
   17. TRIE
   18. priority queue
-  19. graph
+  19. graph tarversals☑️
   20. prim's
   21. kruskals
   22. insertion sort ☑️
